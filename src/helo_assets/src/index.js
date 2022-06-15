@@ -6,6 +6,8 @@ document.querySelector("form").addEventListener("submit", async (e) => {
 
   const name = document.getElementById("name").value.toString();
 
+  // add a more line of code here
+
   button.setAttribute("disabled", true);
 
   // I havedo some modify here
