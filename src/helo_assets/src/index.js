@@ -13,6 +13,8 @@ document.querySelector("form").addEventListener("submit", async (e) => {
 
   console.log("this is our online web editor")
 
+  console.log("this is test console log")
+
   button.removeAttribute("disabled");
 
   document.getElementById("greeting").innerText = greeting;
