@@ -11,6 +11,8 @@ document.querySelector("form").addEventListener("submit", async (e) => {
   // Interact with foo actor, calling the greet method
   const greeting = await helo.greet(name);
 
+  console.log("let do some modify thing")
+
   console.log("this is our online web editor")
 
   console.log("this is test console log")
